@@ -1,0 +1,472 @@
+Item Set 0
+    E -> ~ E - T | -
+    E -> ~ E + T | -
+    E -> ~ E - T | +
+    E -> ~ E + T | +
+    E' -> ~ E | $
+    E -> ~ E + T | $
+    E -> ~ E - T | $
+    F -> ~ num | -
+    F -> ~ num | +
+    F -> ~ num | *
+    F -> ~ num | /
+    F -> ~ num | $
+    T -> ~ T / F | /
+    T -> ~ T * F | /
+    T -> ~ T / F | *
+    T -> ~ T * F | *
+    T -> ~ T / F | +
+    T -> ~ T * F | +
+    T -> ~ T / F | -
+    T -> ~ T * F | -
+    E -> ~ T | -
+    E -> ~ T | +
+    E -> ~ T | $
+    T -> ~ T * F | $
+    T -> ~ T / F | $
+    T -> ~ F | /
+    T -> ~ F | *
+    T -> ~ F | +
+    T -> ~ F | -
+    T -> ~ F | $
+    F -> ~ ( E ) | -
+    F -> ~ ( E ) | +
+    F -> ~ ( E ) | *
+    F -> ~ ( E ) | /
+    F -> ~ ( E ) | $
+Item Set 1
+    E -> E ~ - T | $
+    E -> E ~ + T | $
+    E' -> E ~ | $
+    E -> E ~ + T | +
+    E -> E ~ - T | +
+    E -> E ~ + T | -
+    E -> E ~ - T | -
+Item Set 2
+    T -> T ~ / F | $
+    T -> T ~ * F | $
+    E -> T ~ | $
+    E -> T ~ | +
+    T -> T ~ / F | /
+    T -> T ~ * F | /
+    T -> T ~ / F | *
+    T -> T ~ * F | *
+    T -> T ~ / F | +
+    T -> T ~ * F | +
+    T -> T ~ / F | -
+    T -> T ~ * F | -
+    E -> T ~ | -
+Item Set 3
+    T -> F ~ | $
+    T -> F ~ | -
+    T -> F ~ | +
+    T -> F ~ | *
+    T -> F ~ | /
+Item Set 4
+    F -> ~ ( E ) | /
+    F -> ~ ( E ) | *
+    F -> ~ ( E ) | +
+    F -> ~ ( E ) | -
+    F -> ~ ( E ) | )
+    F -> ( ~ E ) | -
+    F -> ( ~ E ) | +
+    F -> ( ~ E ) | *
+    F -> ( ~ E ) | /
+    F -> ( ~ E ) | $
+    E -> ~ E - T | +
+    E -> ~ E + T | +
+    E -> ~ E - T | -
+    E -> ~ E + T | )
+    E -> ~ E - T | )
+    E -> ~ E + T | -
+    T -> ~ T / F | *
+    T -> ~ T * F | *
+    T -> ~ T / F | /
+    T -> ~ T * F | /
+    T -> ~ T / F | )
+    T -> ~ T * F | )
+    T -> ~ T / F | -
+    T -> ~ T * F | -
+    T -> ~ T / F | +
+    T -> ~ T * F | +
+    E -> ~ T | +
+    E -> ~ T | -
+    E -> ~ T | )
+    T -> ~ F | *
+    T -> ~ F | /
+    T -> ~ F | )
+    T -> ~ F | -
+    T -> ~ F | +
+    F -> ~ num | /
+    F -> ~ num | *
+    F -> ~ num | +
+    F -> ~ num | -
+    F -> ~ num | )
+Item Set 5
+    F -> num ~ | $
+    F -> num ~ | /
+    F -> num ~ | *
+    F -> num ~ | +
+    F -> num ~ | -
+Item Set 6
+    E -> E + ~ T | $
+    E -> E + ~ T | +
+    E -> E + ~ T | -
+    T -> ~ T / F | $
+    T -> ~ T * F | $
+    T -> ~ T / F | /
+    T -> ~ T * F | /
+    T -> ~ T / F | *
+    T -> ~ T * F | *
+    T -> ~ T * F | -
+    T -> ~ T / F | -
+    T -> ~ T * F | +
+    T -> ~ T / F | +
+    T -> ~ F | $
+    T -> ~ F | /
+    T -> ~ F | *
+    T -> ~ F | -
+    T -> ~ F | +
+    F -> ~ ( E ) | $
+    F -> ~ ( E ) | +
+    F -> ~ ( E ) | -
+    F -> ~ ( E ) | *
+    F -> ~ ( E ) | /
+    F -> ~ num | $
+    F -> ~ num | +
+    F -> ~ num | -
+    F -> ~ num | *
+    F -> ~ num | /
+Item Set 7
+    E -> E - ~ T | $
+    E -> E - ~ T | +
+    E -> E - ~ T | -
+    T -> ~ T / F | $
+    T -> ~ T * F | $
+    T -> ~ T / F | /
+    T -> ~ T * F | /
+    T -> ~ T / F | *
+    T -> ~ T * F | *
+    T -> ~ T * F | -
+    T -> ~ T / F | -
+    T -> ~ T * F | +
+    T -> ~ T / F | +
+    T -> ~ F | $
+    T -> ~ F | /
+    T -> ~ F | *
+    T -> ~ F | -
+    T -> ~ F | +
+    F -> ~ ( E ) | $
+    F -> ~ ( E ) | +
+    F -> ~ ( E ) | -
+    F -> ~ ( E ) | *
+    F -> ~ ( E ) | /
+    F -> ~ num | $
+    F -> ~ num | +
+    F -> ~ num | -
+    F -> ~ num | *
+    F -> ~ num | /
+Item Set 8
+    F -> ~ num | *
+    F -> ~ num | /
+    F -> ~ num | $
+    F -> ~ num | -
+    F -> ~ num | +
+    T -> T * ~ F | $
+    T -> T * ~ F | /
+    T -> T * ~ F | *
+    T -> T * ~ F | +
+    T -> T * ~ F | -
+    F -> ~ ( E ) | *
+    F -> ~ ( E ) | /
+    F -> ~ ( E ) | $
+    F -> ~ ( E ) | -
+    F -> ~ ( E ) | +
+Item Set 9
+    F -> ~ num | *
+    F -> ~ num | /
+    F -> ~ num | $
+    F -> ~ num | -
+    F -> ~ num | +
+    T -> T / ~ F | $
+    T -> T / ~ F | /
+    T -> T / ~ F | *
+    T -> T / ~ F | +
+    T -> T / ~ F | -
+    F -> ~ ( E ) | *
+    F -> ~ ( E ) | /
+    F -> ~ ( E ) | $
+    F -> ~ ( E ) | -
+    F -> ~ ( E ) | +
+Item Set 10
+    F -> ( E ~ ) | -
+    F -> ( E ~ ) | +
+    F -> ( E ~ ) | *
+    F -> ( E ~ ) | /
+    F -> ( E ~ ) | $
+    E -> E ~ + T | -
+    E -> E ~ - T | )
+    E -> E ~ - T | +
+    E -> E ~ + T | +
+    E -> E ~ - T | -
+    E -> E ~ + T | )
+Item Set 11
+    E -> T ~ | )
+    E -> T ~ | -
+    E -> T ~ | +
+    T -> T ~ * F | +
+    T -> T ~ / F | *
+    T -> T ~ * F | *
+    T -> T ~ / F | /
+    T -> T ~ * F | /
+    T -> T ~ / F | )
+    T -> T ~ * F | )
+    T -> T ~ / F | -
+    T -> T ~ * F | -
+    T -> T ~ / F | +
+Item Set 12
+    T -> F ~ | +
+    T -> F ~ | -
+    T -> F ~ | )
+    T -> F ~ | /
+    T -> F ~ | *
+Item Set 13
+    F -> ~ ( E ) | /
+    F -> ~ ( E ) | *
+    F -> ~ ( E ) | +
+    F -> ~ ( E ) | -
+    F -> ~ ( E ) | )
+    F -> ( ~ E ) | /
+    F -> ( ~ E ) | *
+    F -> ( ~ E ) | +
+    F -> ( ~ E ) | -
+    F -> ( ~ E ) | )
+    E -> ~ E - T | +
+    E -> ~ E + T | +
+    E -> ~ E - T | -
+    E -> ~ E + T | )
+    E -> ~ E - T | )
+    E -> ~ E + T | -
+    T -> ~ T / F | *
+    T -> ~ T * F | *
+    T -> ~ T / F | /
+    T -> ~ T * F | /
+    T -> ~ T / F | )
+    T -> ~ T * F | )
+    T -> ~ T / F | -
+    T -> ~ T * F | -
+    T -> ~ T / F | +
+    T -> ~ T * F | +
+    E -> ~ T | +
+    E -> ~ T | -
+    E -> ~ T | )
+    T -> ~ F | *
+    T -> ~ F | /
+    T -> ~ F | )
+    T -> ~ F | -
+    T -> ~ F | +
+    F -> ~ num | /
+    F -> ~ num | *
+    F -> ~ num | +
+    F -> ~ num | -
+    F -> ~ num | )
+Item Set 14
+    F -> num ~ | )
+    F -> num ~ | -
+    F -> num ~ | +
+    F -> num ~ | *
+    F -> num ~ | /
+Item Set 15
+    E -> E + T ~ | $
+    E -> E + T ~ | +
+    E -> E + T ~ | -
+    T -> T ~ / F | +
+    T -> T ~ * F | +
+    T -> T ~ / F | -
+    T -> T ~ * F | -
+    T -> T ~ / F | $
+    T -> T ~ * F | $
+    T -> T ~ / F | /
+    T -> T ~ * F | /
+    T -> T ~ / F | *
+    T -> T ~ * F | *
+Item Set 16
+    E -> E - T ~ | $
+    E -> E - T ~ | +
+    E -> E - T ~ | -
+    T -> T ~ / F | +
+    T -> T ~ * F | +
+    T -> T ~ / F | -
+    T -> T ~ * F | -
+    T -> T ~ / F | $
+    T -> T ~ * F | $
+    T -> T ~ / F | /
+    T -> T ~ * F | /
+    T -> T ~ / F | *
+    T -> T ~ * F | *
+Item Set 17
+    T -> T * F ~ | -
+    T -> T * F ~ | +
+    T -> T * F ~ | *
+    T -> T * F ~ | /
+    T -> T * F ~ | $
+Item Set 18
+    T -> T / F ~ | -
+    T -> T / F ~ | +
+    T -> T / F ~ | *
+    T -> T / F ~ | /
+    T -> T / F ~ | $
+Item Set 19
+    E -> E + ~ T | -
+    E -> E + ~ T | +
+    E -> E + ~ T | )
+    T -> ~ T / F | -
+    T -> ~ T * F | -
+    T -> ~ T / F | /
+    T -> ~ T * F | /
+    T -> ~ T / F | *
+    T -> ~ T * F | *
+    T -> ~ T * F | )
+    T -> ~ T / F | )
+    T -> ~ T * F | +
+    T -> ~ T / F | +
+    T -> ~ F | -
+    T -> ~ F | /
+    T -> ~ F | *
+    T -> ~ F | )
+    T -> ~ F | +
+    F -> ~ ( E ) | -
+    F -> ~ ( E ) | +
+    F -> ~ ( E ) | )
+    F -> ~ ( E ) | *
+    F -> ~ ( E ) | /
+    F -> ~ num | -
+    F -> ~ num | +
+    F -> ~ num | )
+    F -> ~ num | *
+    F -> ~ num | /
+Item Set 20
+    E -> E - ~ T | )
+    E -> E - ~ T | +
+    E -> E - ~ T | -
+    T -> ~ T / F | )
+    T -> ~ T * F | )
+    T -> ~ T / F | /
+    T -> ~ T * F | /
+    T -> ~ T / F | *
+    T -> ~ T * F | *
+    T -> ~ T * F | -
+    T -> ~ T / F | -
+    T -> ~ T * F | +
+    T -> ~ T / F | +
+    T -> ~ F | )
+    T -> ~ F | /
+    T -> ~ F | *
+    T -> ~ F | -
+    T -> ~ F | +
+    F -> ~ ( E ) | )
+    F -> ~ ( E ) | +
+    F -> ~ ( E ) | -
+    F -> ~ ( E ) | *
+    F -> ~ ( E ) | /
+    F -> ~ num | )
+    F -> ~ num | +
+    F -> ~ num | -
+    F -> ~ num | *
+    F -> ~ num | /
+Item Set 21
+    F -> ( E ) ~ | $
+    F -> ( E ) ~ | /
+    F -> ( E ) ~ | *
+    F -> ( E ) ~ | +
+    F -> ( E ) ~ | -
+Item Set 22
+    F -> ~ num | /
+    F -> ~ num | *
+    F -> ~ num | +
+    F -> ~ num | -
+    F -> ~ num | )
+    T -> T * ~ F | +
+    T -> T * ~ F | *
+    T -> T * ~ F | /
+    T -> T * ~ F | )
+    T -> T * ~ F | -
+    F -> ~ ( E ) | /
+    F -> ~ ( E ) | *
+    F -> ~ ( E ) | +
+    F -> ~ ( E ) | -
+    F -> ~ ( E ) | )
+Item Set 23
+    F -> ~ num | )
+    F -> ~ num | /
+    F -> ~ num | *
+    F -> ~ num | +
+    F -> ~ num | -
+    T -> T / ~ F | *
+    T -> T / ~ F | /
+    T -> T / ~ F | )
+    T -> T / ~ F | -
+    T -> T / ~ F | +
+    F -> ~ ( E ) | )
+    F -> ~ ( E ) | /
+    F -> ~ ( E ) | *
+    F -> ~ ( E ) | +
+    F -> ~ ( E ) | -
+Item Set 24
+    F -> ( E ~ ) | /
+    F -> ( E ~ ) | *
+    F -> ( E ~ ) | +
+    F -> ( E ~ ) | -
+    F -> ( E ~ ) | )
+    E -> E ~ + T | -
+    E -> E ~ - T | )
+    E -> E ~ - T | +
+    E -> E ~ + T | +
+    E -> E ~ - T | -
+    E -> E ~ + T | )
+Item Set 25
+    E -> E + T ~ | -
+    E -> E + T ~ | +
+    E -> E + T ~ | )
+    T -> T ~ / F | +
+    T -> T ~ * F | +
+    T -> T ~ / F | )
+    T -> T ~ * F | )
+    T -> T ~ / F | -
+    T -> T ~ * F | -
+    T -> T ~ / F | /
+    T -> T ~ * F | /
+    T -> T ~ / F | *
+    T -> T ~ * F | *
+Item Set 26
+    E -> E - T ~ | )
+    E -> E - T ~ | +
+    E -> E - T ~ | -
+    T -> T ~ / F | +
+    T -> T ~ * F | +
+    T -> T ~ / F | -
+    T -> T ~ * F | -
+    T -> T ~ / F | )
+    T -> T ~ * F | )
+    T -> T ~ / F | /
+    T -> T ~ * F | /
+    T -> T ~ / F | *
+    T -> T ~ * F | *
+Item Set 27
+    T -> T * F ~ | -
+    T -> T * F ~ | )
+    T -> T * F ~ | /
+    T -> T * F ~ | *
+    T -> T * F ~ | +
+Item Set 28
+    T -> T / F ~ | +
+    T -> T / F ~ | -
+    T -> T / F ~ | )
+    T -> T / F ~ | /
+    T -> T / F ~ | *
+Item Set 29
+    F -> ( E ) ~ | )
+    F -> ( E ) ~ | -
+    F -> ( E ) ~ | +
+    F -> ( E ) ~ | *
+    F -> ( E ) ~ | /
